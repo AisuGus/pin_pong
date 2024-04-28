@@ -11,6 +11,7 @@ class GameSprite(sprite.Sprite):
 
     def reset(self):
         window.blit(self.image, (self.rect.x, self.rect.y))
+        
 back = (200, 255, 255)
 win_width = 600
 win_height = 500
